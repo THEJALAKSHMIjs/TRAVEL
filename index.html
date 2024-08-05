@@ -1,0 +1,307 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TripSculptor</title>
+  <!-- css -->
+  <link rel="stylesheet" href="./travel.css">
+
+  <!-- bootstrap cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- js cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- googlefont -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+
+  <!-- favicon -->
+  <link rel="icon" type="image/x-icon" href="./images/iconimg-removebg-preview.png">
+
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid " id="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img style="width: 100px;" src="./images/icon2-removebg-preview.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-lg-center">
+            <li class="nav-item " style="font-size: 15px;">
+              <a class="nav-link me-5" href="#sid"><b>Home</b></a>
+            </li>
+            <li class="nav-item" style="font-size: 15PX;">
+              <a class="nav-link me-5" href="#destinations"><B>Destinations</B></a>
+            </li>
+            <li class="nav-item" style="font-size: 15px;">
+              <a  class="nav-link me-5" href="#gallary"><b>Gallary</b></a>
+            </li>
+            <li class="nav-item" style="font-size: 15px;">
+              <a class="nav-link me-5" href="#contact"><b>Contact Us</b></a>
+            </li>
+          <li class="nav-item">
+            <button class="btn rounded-0 py-3 px-4 me-5" id="button">Book Now</button>                                          
+          </li>
+          <li class="nav-item">
+            <i class="fa-brands fa-facebook-f me-3 fa-2x id=icon"></i>
+          </li>
+          <li class="nav-item">
+            <i class="fa-brands fa-instagram me-3 fa-2x id=icon"></i>
+          </li>
+          <li class="nav-item">
+            <i class="fa-brands fa-twitter me-3 fa-2x id=icon"></i>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div id="sid">
+      <h1>Welcome to Our Travel world</h1>
+    </div>
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://cdn.pixabay.com/photo/2016/11/16/03/37/globe-trotter-1828079_1280.jpg" class="w-100 carousel-img" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>the place</h5>
+          <p>unforgettable moments</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://cdn.pixabay.com/photo/2018/03/04/13/46/world-3198063_1280.jpg" class="d-block w-100 carousel-img" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>map</h5>
+          <p>i prefer the way you go</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://cdn.pixabay.com/photo/2017/12/01/03/17/nature-2990060_1280.jpg" class="d-block w-100 carousel-img" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>world tour</h5>
+          <p>mind relief</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Featured Destinations -->
+  <section id="destinations" class="py-5">
+      <div class="container">
+          <h2 class="text-center mb-4"> Destinations</h2>
+          <div class="row">
+              <div class="col-md-4 mb-4">
+                  <div class="card">
+                      <img src="https://cdn.pixabay.com/photo/2019/07/30/07/36/tajmahal-4372206_1280.jpg" class="card-img-top" alt="no image">
+                      <div class="card-body">
+                          <h5 class="card-title">TAJ MAHAL</h5>
+                          <p class="card-text">It is regarded by many as the best example of Mughal architecture and a symbol of India's rich history.</p>
+                          <a href="#" class="btn btn-primary">Explore</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                  <div class="card">
+                      <img style="width: 100%;" src="./images/munnar.jpeg" class="card-img-top" alt="no image">
+                      <div class="card-body">
+                          <h5 class="card-title">MUNNAR</h5>
+                          <p class="card-text">Munnar is situated at the confluence of three mountain streams-Muthirapuzha,Nallathani.</p>
+                          <a href="#" class="btn btn-primary">Explore</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                  <div class="card">
+                      <img src="./images/mysore.jpeg" class="card-img-top" alt="no image">
+                      <div class="card-body">
+                          <h5 class="card-title">MYSORE</h5>
+                          <p class="card-text">Mysore stands the second major city in the state of Karnataka and is recognized as the cleanest city.</p>
+                          <a href="#" class="btn btn-primary">Explore</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <section id="destinations" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2021/06/22/16/39/arch-6356637_1280.jpg" class="card-img-top" alt="no image">
+                        <div class="card-body">
+                            <h5 class="card-title">PARIS</h5>
+                            <p class="card-text">Paris is the capital and most populous city of France.Situated on the seine river.</p>
+                            <a href="#" class="btn btn-primary">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="./images/singapore.jpeg" class="card-img-top" alt="no image">
+                        <div class="card-body">
+                            <h5 class="card-title">SINGAPORE</h5>
+                            <p class="card-text">Singapore is famous for its iconic attractions.</p>
+                            <a href="#" class="btn btn-primary">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="./images/caneda.jpg" class="card-img-top" alt="no image">
+                        <div class="card-body">
+                            <h5 class="card-title">CANADA</h5>
+                            <p class="card-text">Canada has all the best natural wonders.</p>
+                            <a href="#" class="btn btn-primary">Explore</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </section>
+
+  <!-- gallary -->
+  <section id="gallary">
+    <h2 class="text-center mb-4">Our Gallary</h2>
+  <div class="gallery">
+      <div class="gallery-item">
+       
+          <a href="./pexels-madebymath-90947beach.jpg" target="_blank">
+              <img src="https://cdn.pixabay.com/photo/2021/02/13/01/29/woman-6010056_1280.jpg" alt="Image 1">
+          </a>
+      </div>
+      <div class="gallery-item">
+          <a href="./pexels-pineandplum-5040405 natural area.jpg" target="_blank">
+              <img src="https://cdn.pixabay.com/photo/2019/07/16/20/21/mountains-4342531_1280.jpg" alt="Image 2">
+          </a>
+      </div>
+    <div class="gallery-item">
+        <a href="./pexels-visitalmaty-848612winter.jpg" target="_blank">
+            <img src="https://cdn.pixabay.com/photo/2019/08/14/10/37/beach-4405371_1280.jpg" alt="Image 2">
+        </a>
+    </div>
+    <div class="gallery-item">
+        <a href="./pexels-ryutaro-5220043 culture.jpg" target="_blank">
+            <img src="https://cdn.pixabay.com/photo/2019/02/25/02/57/landscape-4018835_1280.jpg" alt="Image 3">
+        </a>
+    </div>
+    <!-- <div class="gallery-item">
+       
+      <a href="./pexels-szymon-shields-1503561-13194708towns.jpg" target="_blank">
+          <img src="" alt="Image 1">
+      </a>
+  </div> -->
+      <!-- Add more gallery items as needed -->
+  </div>
+</section>
+
+  <!-- Contact Form -->
+  <!-- <section id="contact" class="bg-light py-5">
+      <div class="container">
+          <h2 class="text-center mb-4">Contact Us</h2>
+          <div class="row">
+              <div class="col-md-6 mx-auto">
+                  <form>
+                      <div class="form-group">
+                          <label for="name">Name</label>
+                          <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                      </div>
+                      <div class="form-group">
+                          <label for="email">Email address</label>
+                          <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                      </div>
+                      <div class="form-group">
+                          <label for="message">Message</label>
+                          <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </section> -->
+  
+  
+  <section class="contact" id="contact">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6">
+                  <h2>Contact Us</h2>
+                  <form id="contact-form" method="post" action="contact.php">
+                      <div class="form-group">
+                          <label for="name">Your Name</label>
+                          <input type="text" id="name" name="name" class="form-control" required>
+                      </div>
+                      <div class="form-group">
+                          <label for="email">Your Email</label>
+                          <input type="email" id="email" name="email" class="form-control" required>
+                      </div>
+                      <div class="form-group">
+                          <label for="message">Message</label>
+                          <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Send Message</button>
+                  </form>
+              </div>
+              <div class="col-md-6 contact-info">
+                  <h3>Contact Information</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultricies libero in felis bibendum, vitae tempor erat ultricies.l Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, beatae omnis eligendi ratione aspernatur assumenda aliquam fuga tempore iusto quibusdam reiciendis placeat eaque minus esse libero delectus pariatur at. Soluta!</p>
+                  <ul class="list-unstyled">
+                      <li><i class="fas fa-map-marker-alt"></i> thammnz street, bombay, india</li>
+                      <li><i class="fas fa-phone"></i> +123 456 7890</li>
+                      <li><i class="fas fa-envelope"></i> travelworld@gmail.com</li>
+                      <li><i class="fa-brands fa-instagram fa-1x"></i>travelworld</li>
+                      <li><i class="fa-brands fa-whatsapp fa-1x"></i>9826345672</li>
+                      <li><i class="fa-brands fa-facebook fa-1x"></i>travelworld</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+
+  
+  <!-- Footer -->
+  <footer class="bg-dark text-light text-center py-3">
+      <p>&copy; 2024 Travel world. All rights reserved.</p>
+      <div class="up arrow">
+        <a href="#container-fluid"><i class="fa-solid fa-arrow-up fa-2x"></i></a>
+
+      </div>
+  </footer>
+</body>
+
+</html>

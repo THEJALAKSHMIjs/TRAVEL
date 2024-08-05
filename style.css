@@ -1,0 +1,178 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --x :rgb(126, 190, 227);
+}
+#button{
+  background-color: var(--x);
+  color: rgb(76, 75, 74);
+}
+#button:hover{
+  background-color: white;
+  color: var(--x);
+  border-color: var(--x);
+  
+}
+
+.navbar {
+  background-color: #f8f9fa !important; /* Override Bootstrap default */
+}
+
+#hero {
+  background: url('https://via.placeholder.com/1500x600') no-repeat center center/cover;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+#hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+#destinations {
+  background-color: #f8f9fa;
+}
+
+.card {
+  transition: transform 0.3s ease;
+  height: 100px;
+  width: 100%;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+#contact {
+  background-color: #e9ecef;
+}
+
+footer {
+  color: #fff;
+}
+.carousel-img{
+  height: 90vh;
+}
+#sid{
+      position: absolute;
+      color: white;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      z-index: 1000;
+}
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.gallery-item {
+  margin: 10px;
+}
+
+.gallery-item img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover; /* Ensures images maintain aspect ratio */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.contact {
+  padding: 80px 0;
+  background-color: #fff;
+}
+
+.contact h2 {
+  margin-bottom: 40px;
+}
+
+.contact form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact form .form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact form textarea.form-control {
+  resize: vertical;
+}
+
+.contact form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact form button:hover {
+  background-color: #0056b3;
+}
+
+.contact .contact-info {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-left: 5px solid #007bff;
+}
+
+.contact .contact-info h3 {
+  margin-bottom: 20px;
+}
+
+.contact .contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact .contact-info ul li {
+  margin-bottom: 10px;
+}
+
+.contact .contact-info ul li i {
+  margin-right: 10px;
+}
+.up-arrow{
+  background-image: linear-gradient(to bottom right, yellow,rgb(255, 85, 0));
+  float: right;
+  margin: 15px 50px 50px 0px;
+}
